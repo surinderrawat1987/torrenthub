@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-family: 'Open Sans', sans-serif;}
+.top-section{ float:left; width:100%; height:auto; padding:10px 0px; background:#d1d1d1;}
+#content{ float:left; width:100%; height:auto; padding:20px 0px;}
+.top-section .txt{font-size:16px; font-weight:700; text-align:left; text-transform:uppercase; color:#da3a04; display:inline-block; padding:10px 15px; float:left}
+ul.like-dis {  list-style: none;  padding: 0px;  margin: 0px;  float: right;  margin-top: 5px;}
+.like-dis li { display: inline-block;  margin: 0px 15px; float:left}
+.like-dis li a{ display:block}
+.like-dis li img{ padding-right:10px; padding-top:5px}
+.like-dis li span{ background:#fff; border:1px solid #b7b7b7; padding:5px; padding-right:8px; color:#424242; float:right;}
+.like-dis li a:hover{ text-decoration:none;}
+.like-dis li span:before {  content: url(../images/like-bx-frnt.jpg);  position: relative;  right: 11px;  width: 6px;  height: 8px; bottom: 1.5px;}
+.left-inner{ float:left; width:100%; background:#1e3e66; padding:28px 0px; text-align:center; margin:10px 0px; margin-right:10px;}
+.left-inner img{ width:100%; max-width:145px;}
+.right-inner{ float:left; width:100%; background:#1e3e66; padding:17px 0px; text-align:center; margin-top:10px ; }
+.no-padding_l{ padding-left:0px!important}
+.no-padding_r{ padding-right:0px!important}
+.mylist {float: left;width: 100%;padding: 0;margin: 0;list-style: none;text-align: left;}
+.mylist li{ float:left; width:100%; color:#fff; font-size:14px; font-weight:600; padding:5px 0px; border-bottom:1px solid #fff;}
+.mylist li:last-child{ border-bottom:none}
+.mylist li span{ font-size:12px; color:#d1d1d1; text-transform:uppercase; font-weight:400;padding-left:8px; text-align:right; float:right}
+.torrnt-btn { background: url(../images/torrent-dwonload.jpg) no-repeat;background-position: center center;
+  padding: 15px 0px 15px 60px;font-size: 12px; font-weight: 600; color: #fff;  text-transform: capitalize;  float: left; width:175px}
+.mgnt-btn{ background:url(../images/magnet-download.jpg) no-repeat; background-position:center center;  padding: 15px 0px 15px 60px;font-size: 12px; font-weight: 600; color: #fff;  text-transform: capitalize;  float: left;width:175px}
+.dwnlod-btn{ background:url(../images/direct-download.jpg) no-repeat; background-position:center center;  padding: 15px 0px 15px 60px;font-size: 12px; font-weight: 600; color: #fff;  text-transform: capitalize;  float: left;width:175px}
+.mylist1 {float: left;width: 100%;padding: 0;margin: 0;list-style: none;text-align: left;}
+.mylist1 li{ @float:left; display:inline;width:100%; padding:5px 0px;}
+.heading{ float:left; width:100%; text-align:left; padding:10px 0px; font-weight:700; color:#424242; font-size:18px;}
+.para{ float:left; width:100%; padding:10px 0px; text-align:left; font-weight:600; color:#424242; font-size:14px; line-height:20px;}
+.heading span{ color:#d9534f; font-weight:600}
+.mybtn{ color:#fff; text-decoration:none; padding:10px 20px; font-size:18px; font-weight:600; background:#d9534f; text-align:center; border-radius:5px; float:left}
+.mybtn:hover{ text-decoration:none;}
+.versions{ float:left; width:100%; padding:0px; margin:10px 0px; list-style:none;}
+.versions li{ float:left; margin-right:10px;}
+.versions li a{ float:left; width:100%; padding:5px 15px; background:#234f85; color:#fff; font-size:18px; font-weight:600; text-align:center; border-radius:5px; text-decoration:none; text-transform:uppercase}
+.main-head{float:left; width:100%; text-align:left; padding:10px 0px; color:#d9534f; font-weight:700; font-size:20px; text-transform:uppercase}
+.ppl-txt{ float:left; width:100%; text-align:center; padding:10px; text-decoration:underline; font-weight:700; font-size:18px; color:#1e3e66; text-transform:uppercase}
+.comment-box{ float:left; width:98%; padding:2%; background:#e5e5e5; margin-bottom:20px}
+.thread{ float:left; width:100%; padding:10px 0px; background:#1e3e66;}
+.cmt-txt{ color:#fff; float:left; padding-left:10px; font-size:16px; font-weight:600}
+.closed{ float:right; padding-right:10px;}
+.cmt-link {  float: left;  width: 100%;  padding: 0px;  margin: 10px 0;  list-style: none;}
+.cmt-link li{ float:left; margin-right:20px; padding:10px 0px; font-size:14px; font-weight:600; color:#424242;}
+.cmt-link li:last-child{ margin-right:0px; color:#1e3e66;}
+.login-outer{ float:left; width:100%; text-align:right;}
+.online{ background:url(../images/chat-icn.png) no-repeat; text-align:center; font-size:14px; font-weight:700; color:#1e3e66; display:inline-block; width:21px; height:22px; margin:10px 20px;}
+.login{ background:url(../images/login-bg.png) no-repeat; text-align:center; font-size:14px; font-weight:700; color:#1e3e66; display:inline-block; background-position:right center; padding-right:25px;}
+.thread-btm{ float:left; width:100%; height:auto; background:url(../images/bottom-border.jpg) no-repeat; background-position:bottom left; padding:10px 0px; margin-bottom:20px}
+.btm-links{ float:left; width:100%; height:auto; margin:0px;}
+.btm-links ul{ float:left; width:100%; list-style:none; padding:0px; margin:0px;}
+.btm-links ul li{ float:left; margin-right:20px;}
+.heart {  background: url(../images/heart.png) no-repeat;  background-position: left center;  font-size: 14px;  font-weight: 400;
+  color: #d9534f;  padding-left: 30px;  float: left;  padding-top: 5px;  padding-bottom: 5px;}
+  .share{  background: url(../images/share.png) no-repeat;  background-position: left center;  font-size: 14px;  font-weight: 400;
+  color: #d9534f;  padding-left: 30px;  float: left;  padding-top: 5px;  padding-bottom: 5px;}
+.sidebar{ float:left; width:100%; height:auto; padding:0px; border:1px solid #ccc;}
+ .sidebar .side-head{font-size:16px; font-weight:700; text-align:center; text-transform:uppercase; color:#fff; display:inline-block; padding:20px 15px; float:left; width:100%;background:#1e3e66;}
+ .sidebar li{ float:left; width:100%; list-style:none; padding:10px 0px; text-align:center; border-bottom:1px solid #ccc;}
+.sidebar li:last-child{border-bottom:3px solid #1e3e66}
+.center{ text-align:center}
+
+@media screen and (device-width: 320px) and (device-height: 960px) and (-webkit-device-pixel-ratio: 2) {
+.no-padding_l { padding-left:0px!important ; padding-right:0px!important}
+.no-padding_r { padding-right:0px!important; padding-left:0px!important}
+.comment-box{width:100%;}
+.versions li a {margin-bottom:10px;}
+}
